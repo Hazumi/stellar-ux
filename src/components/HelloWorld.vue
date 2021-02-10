@@ -33,7 +33,7 @@
 
 <script>
 
-import { db } from '@/firebase/config';
+// import { db } from '@/firebase/config';
 
 export default {
   name: 'HelloWorld',
@@ -42,16 +42,16 @@ export default {
   }
 }
 
-var docRef = db.collection("user-progress").doc("F3D6JZh0ZyzwPScQXvXW");
-
-docRef.get().then((doc) => {
-    if (doc.exists) {
-        console.log("Document data:", doc.data());
-    } else {
-        // doc.data() will be undefined in this case
-        console.log("No such document!");
-    }
-})
+// var docRef = db.collection("user-progress").doc("F3D6JZh0ZyzwPScQXvXW");
+//
+// docRef.get().then((doc) => {
+//     if (doc.exists) {
+//         console.log("Document data:", doc.data());
+//     } else {
+//         // doc.data() will be undefined in this case
+//         console.log("No such document!");
+//     }
+// })
 
 </script>
 

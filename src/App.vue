@@ -1,9 +1,17 @@
 <template>
   <div id="app">
-    <Header />
-    <router-view/>
-    <h1>TEST</h1>
-    <h2>TEST 2</h2>
+    <div class="container-xl">
+      <div class="row">
+        <div class="col">
+          <Header />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <router-view/>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

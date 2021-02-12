@@ -5,6 +5,8 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import db from './firebase/config'
 
+// console.log(db);
+
 Vue.config.productionTip = false
 
 new Vue({
